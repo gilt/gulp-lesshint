@@ -21,7 +21,9 @@ module.exports = function (options) {
 
     // override the default instance of gonzales-pe,
     // and insert the gilt fork
-    options.gonzales = require('gonzales-pe');
+    var gonzales = require('gonzales-pe');
+    gonzales.gilt = true;
+    options.gonzales = gonzales;
 
     lesshint.configure(options);
 
