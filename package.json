@@ -1,6 +1,6 @@
 {
   "name": "gulp-lesshint",
-  "version": "0.3.0",
+  "version": "0.3.0-gilt",
   "description": "Lint your .less files from Gulp with lesshint.",
   "main": "index.js",
   "author": {
@@ -25,8 +25,9 @@
   ],
   "dependencies": {
     "chalk": "^1.0.0",
+    "gonzales-pe": "git://github.com/gilt/gonzales-pe.git#dev",
     "gulp-util": "^3.0.5",
-    "lesshint": "git://github.com/gilt/lesshint.git#errors-vs-warnings",
+    "lesshint": "git://github.com/gilt/lesshint.git",
     "through2": "^2.0.0"
   },
   "devDependencies": {
